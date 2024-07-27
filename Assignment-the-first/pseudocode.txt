@@ -1,0 +1,60 @@
+
+def reverse_complement(seq: str) -> str:
+    """Given a DNA sequence, will find the reverse complement of that
+    sequence."""
+    loop through sequence in reverse
+    return(A if T, C if G, G if C, T if A, N if N)
+Input: TAAG
+Expected Output: CTTA
+
+indexes = []
+open file(indexes.txt) as fh:
+    for line in fh:
+        strip line
+        split line ( )
+        if line[1] not in indexes: 
+        #I need to look at the file to see where the actual barcode is
+            add barcode to indexes
+            
+
+barcodes = list
+matched_count = 0
+index_hopped_count = 0
+unknown_count = 0
+open files (R1, R2, R3, R4) as f1, f2, f3, f4:
+    for line in f2:
+        strip line
+        line = sequence line only
+        add barcodes as tuple
+        for line in f3: #barcodes 2
+            strip line
+            line = sequence line only
+            reverse complement(line)
+            store in barcodes tuple with barcode 1
+        for line in f1:
+            strip line 
+            for header line only:
+                add both barcodes to header 
+        for line in f4:
+            strip line
+            for header line only:
+                add both barcodes to header
+        if barcode1 or barcode2 not in indexes:
+            write record from f1 to R1_unknown
+            write record from f1 to R2_unknown
+            unknown_count += 2
+        elif:
+            if barcode1 == barcode2:
+                write record from f1 to R1_matches
+                write record from f2 to R2_matches
+                matched_count += 2
+            if barcode1 != barcode2:
+                write record from f1 to R1_index_hopping
+                write record from f2 to R2_index_hopping
+                index_hopped_count += 2
+             
+            
+
+
+        
+    
