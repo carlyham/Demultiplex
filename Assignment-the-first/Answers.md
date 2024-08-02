@@ -5,10 +5,10 @@
 
 | File name | label | Read length | Phred encoding |
 |---|---|---|---|
-| 1294_S1_L008_R1_001.fastq.gz |  |  |  |
-| 1294_S1_L008_R2_001.fastq.gz |  |  |  |
-| 1294_S1_L008_R3_001.fastq.gz |  |  |  |
-| 1294_S1_L008_R4_001.fastq.gz |  |  |  |
+| 1294_S1_L008_R1_001.fastq.gz |  | 101 | +33 |
+| 1294_S1_L008_R2_001.fastq.gz |  | 8 | +33 |
+| 1294_S1_L008_R3_001.fastq.gz |  | 8 | +33 |
+| 1294_S1_L008_R4_001.fastq.gz |  | 101 | +33 |
 
 2. Per-base NT distribution
     1. Use markdown to insert your 4 histograms here.
@@ -17,6 +17,7 @@
     
 ## Part 2
 1. Define the problem
+    
 2. Describe output
 3. Upload your [4 input FASTQ files](../TEST-input_FASTQ) and your [>=6 expected output FASTQ files](../TEST-output_FASTQ).
 4. Pseudocode
