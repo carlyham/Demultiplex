@@ -30,7 +30,7 @@
        ![](https://github.com/carlyham/Demultiplex/blob/master/Assignment-the-first/plots/R4_dist_plot.png)
 
     3. Justify qual score cutoff:
-       Generally, a quality score threshold of 30 is considered acceptable and represents a 99.9% base call accuracy. Comparing the lowest quality score to this cutoff would generate better data for the index reads. For these reads, we want a strict threshold because we want good filtering out of indexes that could match eachother by mistake (although this is very unlikely).
+       Generally, a quality score threshold of 30 is considered acceptable and represents a 99.9% base call accuracy. Comparing the lowest quality score in the index to this cutoff would generate more robust data data in this case. For these reads, we want a strict threshold for quality because we want good filtering out of indexes that could match eachother by mistake (although this is very unlikely). If accidental index matcing occurs, biological reads would be assigned to the wrong conditions in the next steps of genome alignment.
     For biological reads (R1 and R4) a quality score cutoff is most likely not necessary. The aligner will take care of these reads in a future step. Sequences with mistakes (of low quality) will likely not align to the genome anywhere.
 
     5. 
