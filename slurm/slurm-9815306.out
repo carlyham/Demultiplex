@@ -1,0 +1,24 @@
+[('GTAGCGTA', 5774439, 1.5896740269392924), ('CGATCGAT', 4237854, 1.1666599012927124), ('GATCAAGG', 4628196, 1.2741190915315452), ('AACAGCGA', 6368144, 1.753118028714009), ('TAGCCATG', 7148153, 1.9678505850850938), ('CGGTAATC', 2393021, 0.6587866508972201), ('CTCTGGAT', 24515042, 6.748867818454032), ('TACCGGAT', 49686878, 13.678547723216287), ('CTAGCTCA', 13034311, 3.5882802910809373), ('CACTTCAC', 2577666, 0.709618491133857), ('GCTACTCT', 4301318, 1.1841312214409856), ('ACGATCAG', 5933528, 1.6334704288532695), ('TATGGCAC', 7651472, 2.106411775456151), ('TGTTCCGT', 11450554, 3.152279950981528), ('GTCCTAAG', 6200133, 1.7068654450534841), ('TCGACAAG', 2644260, 0.7279514845467228), ('TCTTCGAC', 30089661, 8.283532403945765), ('ATCATGCG', 6927867, 1.907206956725984), ('ATCGTGGT', 4730009, 1.3021476985883988), ('TCGAGAGT', 7448072, 2.050416778006277), ('TCGGATTC', 2874320, 0.7912858459691317), ('GATCTTGC', 2636332, 0.7257689460030522), ('AGAGTCCA', 7602663, 2.09297490313299), ('AGGATAGC', 5861709, 1.6136990192079772)]
+	Command being timed: "./demux.py -f1 /projects/bgmp/shared/2017_sequencing/1294_S1_L008_R1_001.fastq.gz -f2 /projects/bgmp/shared/2017_sequencing/1294_S1_L008_R2_001.fastq.gz -f3 /projects/bgmp/shared/2017_sequencing/1294_S1_L008_R3_001.fastq.gz -f4 /projects/bgmp/shared/2017_sequencing/1294_S1_L008_R4_001.fastq.gz"
+	User time (seconds): 3943.72
+	System time (seconds): 52.79
+	Percent of CPU this job got: 87%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16:16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 248848
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 38574
+	Voluntary context switches: 48930
+	Involuntary context switches: 2497
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
